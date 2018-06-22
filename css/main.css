@@ -1,1 +1,14 @@
-/* CSS Code */
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+body > header, body > footer {
+  width: 100%;
+  text-align: center;
+}
+body >nav, body > aside {
+  width: 20%;
+}
+body > main {
+  width: 60%;
+}

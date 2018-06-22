@@ -22,6 +22,11 @@ W3C Recommendation, 14 December 2017
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [Media Types](http://www.iana.org/assignments/media-types/media-types.xhtml)
 
+## 其他補助文件
+
+[Facebook Developer](https://developers.facebook.com/tools/debug/)
+[Twitter Developer](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
+
 ## 其他部分
 
 - [ ] Google 用的 meta 與其他 SEO 控制

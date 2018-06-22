@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-Hant-TW" dir=auto>
+<html lang="zh-Hant-TW" dir="auto">
 <head>
   <base href="https://ordinarycas.github.io/Perfect-HTML/" target="_self">
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -8,9 +8,18 @@
   <meta name="keywords" content="HTML,HTML5,語意化,完美HTML">
   <meta name="author" content="Omar Cai">
   <meta name="copyright" content="Cai Ci-Jhan">
+  <!-- Facebook OG 開始 -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ordinarycas.github.io/Perfect-HTML/">
+  <meta property="og:title" content="完美的 HTML5 語意化">
+  <meta property="og:image" content="./assets/image/favicon.ico">
+  <meta property="og:description" content="正在執行完美的 HTML5 語意化">
+  <meta property="og:site_name" content="完美的 HTML 語意化">
+  <meta property="og:locale" content="zh_TW">
+  <!-- Facebook OG 結束 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>完美的 HTML 語意化</title>
+  <title>完美的 HTML5 語意化</title>
   <link rel="shortcut icon" type="image/ico" href="./assets/image/favicon.ico">
   <link rel="stylesheet" type="text/css" href="./css/main.css">
   <link rel="help" type="text/markdown" href="./README.md">
@@ -22,13 +31,30 @@
   </header>
   <nav>
     <p>這是一整份文件的主導覽列</p>
-    <ol>
+    <ul>
       <li><a href="#">首頁</a></li>
       <li><a href="#">表單</a></li>
       <li><a href="#">表格</a></li>
-    </ol>
+    </ul>
   </nav>
+  <aside>
+    <h2>對於本網站的相關文章</h2>
+    <p>實務上可能會使用無序清單來做編排</p>
+    <ul>
+      <li><a href="#" target="_blank">相關文章一</a></li>
+      <li><a href="#" target="_parent">相關文章二</a></li>
+      <li><a href="#" target="_top">相關文章三</a></li>
+    </ul>
+  </aside>
   <main>
+    <nav>
+      <p>這是主內容的導覽</p>
+      <ul>
+        <li><a href="#">第一節標題</a></li>
+        <li><a href="#">第二節標題</a></li>
+        <li><a href="#">第三節標題</a></li>
+      </ul>
+    </nav>
     <article>
       <header>
         <h2>一整份文章需要有標題</h2>
@@ -55,14 +81,14 @@
     <aside>
       <h2>對於本篇敘述的相關文章</h2>
       <p>實務上可能會使用無序清單來做編排</p>
-      <ol>
+      <ul>
         <li><a href="#" target="_blank">相關文章一</a></li>
         <li><a href="#" target="_parent">相關文章二</a></li>
         <li><a href="#" target="_top">相關文章三</a></li>
-      </ol>
+      </ul>
     </aside>
   </main>
-  <footer></footer>
+  <footer><p><small>Copyright © 2018 Omar Cai<sup>®</sup></small></p></footer>
   <script src="./js/main.js"></script>
 </body>
 </html>
