@@ -5,8 +5,9 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta http-equiv="default-style" content="text/css">
   <meta name="description" content="HTML5語意化 ">
-  <meta name="keywords" content="HTML,HTML5,語意化">
-  <meta name="author" content="Omar,Cai Ci-Jhan">
+  <meta name="keywords" content="HTML,HTML5,語意化,完美HTML">
+  <meta name="author" content="Omar Cai">
+  <meta name="copyright" content="Cai Ci-Jhan">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>完美的 HTML 語意化</title>
@@ -16,13 +17,23 @@
 </head>
 <body>
   <header>
-    <h1>完美的HTML範例</h1>
+    <h1>完美的<abbr title="HyperText Markup Language">HTML</abbr>範例</h1>
     <p>這個區塊使用<strong>header</strong>是為了表示，一整份文件的頭部，<strong>strong</strong>標籤是有意義的表示所以這邊就不使用<b>b</b>標籤了</p>
   </header>
+  <nav>
+    <p>這是一整份文件的主導覽列</p>
+    <ol>
+      <li><a href="#">首頁</a></li>
+      <li><a href="#">表單</a></li>
+      <li><a href="#">表格</a></li>
+    </ol>
+  </nav>
   <main>
     <article>
-      <h2>一整份文章需要有標題</h2>
-      <p>文章內有可能會有敘述文稿，並分章節做說明</p>
+      <header>
+        <h2>一整份文章需要有標題</h2>
+        <p>文章內有可能會有敘述文稿，並分章節做說明</p>
+      </header>
       <section>
         <h3>第一節、每個章節會有自己的標題</h3>
         <p>章節也有敘述文字</p>
@@ -39,14 +50,15 @@
           <p>敘述.....</p>
         </article>
       </section>
+      <footer><p>一個好文章也要有尾巴</p></footer>
     </article>
     <aside>
       <h2>對於本篇敘述的相關文章</h2>
       <p>實務上可能會使用無序清單來做編排</p>
       <ol>
-        <li>相關文章一</li>
-        <li>相關文章二</li>
-        <li>相關文章三</li>
+        <li><a href="#" target="_blank">相關文章一</a></li>
+        <li><a href="#" target="_parent">相關文章二</a></li>
+        <li><a href="#" target="_top">相關文章三</a></li>
       </ol>
     </aside>
   </main>
