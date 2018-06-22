@@ -2,49 +2,55 @@
 <html lang="zh-Hant-TW" dir=auto>
 <head>
   <base href="https://ordinarycas.github.io/Perfect-HTML/" target="_self">
-  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="default-style" content="text/css">
+  <meta name="description" content="HTML5語意化 ">
+  <meta name="keywords" content="HTML,HTML5,語意化">
+  <meta name="author" content="Omar,Cai Ci-Jhan">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>完美的 HTML 語意化</title>
-  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" type="image/ico" href="./assets/image/favicon.ico">
   <link rel="stylesheet" type="text/css" href="./css/main.css">
-  <link rel="help" href="./README.md">
+  <link rel="help" type="text/markdown" href="./README.md">
 </head>
 <body>
-  <main role="main">
-    <header>
-      <nav>
-        <ul>
-          <li>News</li>
-          <li>Sports</li>
-          <li>Weather</li>
-        </ul>
-      </nav>
-      <p>Welcome!
-        <a href="#">This is home of...</a>
-      </p>
-      <h1>
-        <a href="/">The Falcons!</a>
-      </h1>
-      <p>
-        <a href="/">The Lockheed Martin multirole jet fighter aircraft!</a> This page discusses the F-16 Fighting Falcon’s innermost
-        secrets.
-      </p>
-    </header>
-
+  <header>
+    <h1>完美的HTML範例</h1>
+    <p>這個區塊使用<strong>header</strong>是為了表示，一整份文件的頭部，<strong>strong</strong>標籤是有意義的表示所以這邊就不使用<b>b</b>標籤了</p>
+  </header>
+  <main>
     <article>
+      <h2>一整份文章需要有標題</h2>
+      <p>文章內有可能會有敘述文稿，並分章節做說明</p>
       <section>
-        <h1>Favorite books</h1>
-        <p>These are a few of my favorite books.</p>
-        <h2>The Belgariad</h2>
-        <p>Five books by David and Leigh Eddings.</p>
-        <h2>The Hitchhiker’s Guide to the Galaxy</h2>
-        <p>A trilogy of five books by Douglas Adams.</p>
-        <audio src="./assets/audio/1940_s_Slow_Dance_Sting.mp3" controls>
+        <h3>第一節、每個章節會有自己的標題</h3>
+        <p>章節也有敘述文字</p>
+      </section>
+      <section>
+        <h3>第二節、每個章節會有自己的標題</h3>
+        <p>章節也有敘述文字</p>
+      </section>
+      <section>
+        <h3>第三節、每個章節也有可能有獨立的文章</h3>
+        <p>某某學術研究文稿如下：</p>
+        <article>
+          <h4>該學術研究的標題</h4>
+          <p>敘述.....</p>
+        </article>
       </section>
     </article>
-
+    <aside>
+      <h2>對於本篇敘述的相關文章</h2>
+      <p>實務上可能會使用無序清單來做編排</p>
+      <ol>
+        <li>相關文章一</li>
+        <li>相關文章二</li>
+        <li>相關文章三</li>
+      </ol>
+    </aside>
   </main>
+  <footer></footer>
   <script src="./js/main.js"></script>
 </body>
 </html>
