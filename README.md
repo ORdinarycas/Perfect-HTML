@@ -1,10 +1,10 @@
 # Perfect-HTML
 
-製作一個完美的HTML（Make a perfect HTML）
+製作一個完美的 HTML 語意化網站（Make a perfect HTML semantic）
 
 ## Demo
 
-[Demo](https://ordinarycas.github.io/Perfect-HTML/)
+[Demo](https://ordinarycas.github.io/Perfect-HTML-semantic/)
 
 ## 規範版本 HTML 5.2
 
@@ -33,6 +33,10 @@ W3C Recommendation, 14 December 2017
 - [ ] Facebook 用的 meta 與其他 SEO 控制
 - [ ] Twitter 用的 meta 與其他 SEO 控制
 - [ ] Line 用的 meta 與其他 SEO 控制
+
+## 使用
+
+[normalize](https://github.com/necolas/normalize.css)
 
 ## License
 
