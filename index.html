@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="zh-Hant-TW" dir="auto">
 <head>
-  <!-- <base href="https://ordinarycas.github.io/Perfect-HTML/" target="_self"> -->
+  <base href="https://ordinarycas.github.io/Perfect-HTML-Semantic/" target="_self">
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta http-equiv="default-style" content="text/css">
-  <meta name="description" content="HTML5語意化 ">
-  <meta name="keywords" content="HTML,HTML5,語意化,完美HTML">
+  <meta name="description" content="HTML5 的規格中，提供了一系列語意標籤（Semantic Elements）">
+  <meta name="keywords" content="HTML,HTML5,語義化,完美HTML,Semanti">
   <meta name="author" content="Omar Cai">
   <meta name="copyright" content="Cai Ci-Jhan">
   <!-- Facebook OG 開始 -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://ordinarycas.github.io/Perfect-HTML/">
-  <meta property="og:title" content="完美的 HTML5 語意化">
+  <meta property="og:url" content="https://ordinarycas.github.io/Perfect-HTML-Semantic/">
+  <meta property="og:title" content="完美的 HTML5 語義化">
   <meta property="og:image" content="./assets/image/favicon.ico">
-  <meta property="og:description" content="正在執行完美的 HTML5 語意化">
-  <meta property="og:site_name" content="完美的 HTML 語意化">
+  <meta property="og:description" content="正在執行完美的 HTML5 語義化">
+  <meta property="og:site_name" content="完美的 HTML 語義化">
   <meta property="og:locale" content="zh_TW">
   <!-- Facebook OG 結束 -->
   <meta name="viewport" con`tent="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>完美的 HTML5 語意化</title>
+  <title>完美的 HTML5 語義化</title>
   <link rel="shortcut icon" type="image/ico" href="./assets/image/favicon.ico">
-  <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.min.css">
   <link rel="help" type="text/markdown" href="./README.md">
 </head>
 <body>
-  <header>
-    <h1>完美的<abbr title="HyperText Markup Language">HTML</abbr>範例</h1>
+  <header class="body-header">
+    <h1>做一個完美的<abbr title="HyperText Markup Language">HTML</abbr>語義化</h1>
     <p>這個區塊使用<strong>header</strong>是為了表示，一整份文件的頭部，<strong>strong</strong>標籤是有意義的表示所以這邊就不使用<b>b</b>標籤了</p>
   </header>
-  <nav>
+  <nav class="body-nav">
     <p>這是一整份文件的主導覽列</p>
     <ul>
       <li><a href="#">首頁</a></li>
@@ -37,16 +37,7 @@
       <li><a href="#">表格</a></li>
     </ul>
   </nav>
-  <aside>
-    <h2>對於本網站的相關文章</h2>
-    <p>實務上可能會使用無序清單來做編排</p>
-    <ul>
-      <li><a href="#" target="_blank">相關文章一</a></li>
-      <li><a href="#" target="_parent">相關文章二</a></li>
-      <li><a href="#" target="_top">相關文章三</a></li>
-    </ul>
-  </aside>
-  <main>
+  <main id="main">
     <nav>
       <p>這是主內容的導覽</p>
       <ul>
@@ -88,7 +79,16 @@
       </ul>
     </aside>
   </main>
-  <footer><p><small>Copyright © 2018 Omar Cai<sup>®</sup></small></p></footer>
-  <script src="./dist/js/main.js"></script>
+  <aside class="body-aside">
+    <h2>對於本網站的相關文章</h2>
+    <p>實務上可能會使用無序清單來做編排</p>
+    <ul>
+      <li><a href="#" target="_blank">相關文章一</a></li>
+      <li><a href="#" target="_parent">相關文章二</a></li>
+      <li><a href="#" target="_top">相關文章三</a></li>
+    </ul>
+  </aside>
+  <footer class="body-footer"><p><small>Copyright © 2018 Omar Cai<sup>®</sup></small></p></footer>
+  <script src="./js/main.js"></script>
 </body>
 </html>

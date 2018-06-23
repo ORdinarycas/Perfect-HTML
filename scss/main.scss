@@ -3,13 +3,20 @@ body {
   display: flex;
   flex-flow: row wrap;
 }
-body > header, body > footer {
+.body-header, .body-footer {
   width: 100%;
-  text-align: center;
+  padding: 0 2%;
+  background-color: #ffee99;
 }
-body >nav, body > aside {
-  width: 20%;
+#main {
+  flex: 5 1 0;
+  width: 100%;
+  padding: 0 2%;
+  background-color: #ffcccc;
 }
-body > main {
-  width: 60%;
+.body-nav, .body-aside {
+  flex: 1 1 0;
+  width: 100%;
+  padding: 0 2%;
+  background-color: #ccffff;
 }
